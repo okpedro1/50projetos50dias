@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="content">
+            <h1>Buscar informaçoes</h1>
+            <div class="forms">
+                <label for="nome">Nome</label>
+                <input type="text" name="name" id="nome">
+
+                <label for="idade">idade</label>
+                <input type="number" name="age" id="idade">
+            </div>
+
+            <div id="botao">
+                <button onclick="exibirInformacoes()">Avançar</button>
+            </div>
+
+            <div class="desc">
+                <h1>Descrição</h1>
+                <p>nome: <span id="nome-desc"></span></p>
+                <p>idade: <span id="idade-desc"></span></p>
+            </div>
+            <div id="situacao">
+                <h1>Situação:<span id="situacao-desc"> - </span></h1>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
